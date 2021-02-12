@@ -4,6 +4,7 @@
 #include <stdlib.h>
 
 #define MAX_VERTEX 400
+#define INF 9999
 int min(int a, int b)
 {
     return (a < b ? a:b);
@@ -37,7 +38,7 @@ int main() {
 		for(j=1; j<=v; j++)
 		{
 
-			matrix[i][j] = 9999;
+			matrix[i][j] = INF;
 		}
 	}
 	printMatrix(matrix, v);
