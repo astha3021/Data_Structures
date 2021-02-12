@@ -69,6 +69,8 @@ int main() {
 
 			}
 		}
+		               printf("Iteration:%d\n",k);
+		               printMatrix(matrix,v);
 	}
 
 	printf("Shortest distance between every pair of vertices is:\n");
